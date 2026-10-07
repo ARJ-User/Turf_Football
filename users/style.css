@@ -1,0 +1,264 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #111827;
+  color: white;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  /* background: url("https://images.unsplash.com/photo-1518604666860-9ed391f76460?q=80&w=1920"); */
+  /* background: url("https://images-ext-1.discordapp.net/external/eyFlkcNQ1KDLyUEjXfv376W1VfAyxot6j2lpxxE2zlg/%3Fq%3D80%26w%3D985%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.1.0%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D/https/images.unsplash.com/photo-1712418516923-527799fb2bec?format=webp&width=911&height=773"); */
+  /* background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-blend-mode: darken;
+  background-size: cover;
+}
+/*  */
+/* nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 8%; */ 
+/* } */
+
+/* .logo {
+  font-size: 28px;
+  font-weight: 700; */
+/* } */
+
+/* .nav-btn {
+  text-decoration: none;
+  color: white;
+  background: #22c55e;
+  padding: 12px 25px;
+  border-radius: 50px; */
+  /* font-weight: 600; */
+
+
+/* .hero-content { */
+  /* height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  max-width: 900px;
+}
+
+.hero-content p {
+  margin: 20px 0;
+  max-width: 650px; */
+  /* font-size: 18px; */
+/* } */
+/* 
+.hero-btn {
+  text-decoration: none;
+  background-color: #22c55e;
+  padding: 18px 35px;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+} */
+/* 
+.pricing {
+  padding: 100px 8%;
+  text-align: center;
+}
+
+.pricing h2 {
+  font-size: 40px;
+  margin-bottom: 50px;
+} */
+
+/* .pricing-container { */
+  /* display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.card {
+  width: 300px;
+  background: #16213b;
+  padding: 40px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+} */
+
+/* .card h1 {
+  margin: 20px 0;
+  color: #22c55e;
+}
+
+.featured {
+  border: 2px solid #22c55e;
+}
+
+.features {
+  padding: 100px 8%;
+  text-align: center; */
+  /* background: #16213b; */
+/* }
+
+.features h2 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+/* } */
+/* 
+.feature {
+  width: 200px;
+
+  padding: 30px;
+}
+
+.booking {
+  padding: 100px 8%;
+  display: flex;
+  justify-content: center;
+}
+
+.booking-card { */
+  /* width: 100%;
+  max-width: 700px;
+  background: rgba(15, 61, 146, 0.137); */
+
+  /* padding: 40px;
+  border-radius: 25px;
+
+  h2 {
+    text-align: center; */
+    /* margin-bottom: 30px; */ 
+  /* }
+} */
+/* 
+input,
+select {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 16px;
+  background: #22c55e;
+  border: none;
+  border-radius: 10px; */
+  /* color: white;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #16a34a;
+}
+
+#message {
+  margin-top: 20px;
+  text-align: center; */
+  /* font-weight: 600;
+  color: #22c55e;
+}
+
+footer {
+  background: #0f172a;
+  text-align: center;
+  padding: 25px;
+}
+
+/* tab */
+/* @media (max-width: 1024px) {
+  nav { */
+    /* padding: 20px 5%;
+  } */
+/* 
+  .hero-content h1 {
+    font-size: 2.8rem; */
+  /* } */ 
+
+  /* .pricing,
+  .features,
+  .booking {
+    padding: 60px 5%;
+  }
+} */
+
+/* mbl
+@media (max-width: 768px) {
+  nav {
+    padding: 15px 4%;
+  }
+
+  .logo {
+    font-size: 22px;
+  } */
+
+  /* .nav-btn {
+    padding: 8px 18px;
+    font-size: 14px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem; */
+  /* } */
+/* 
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .hero-btn {
+    padding: 14px 28px;
+    font-size: 15px;
+  }
+
+  .pricing h2,
+  .features h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 340px;
+    padding: 30px 20px;
+  }
+
+  .feature {
+    width: 45%;
+    padding: 15px 10px;
+    font-size: 14px;
+  }
+
+  .booking-card {
+    padding: 25px 20px;
+  }
+} */
